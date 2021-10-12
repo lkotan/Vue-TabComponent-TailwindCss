@@ -1,6 +1,6 @@
 # account-setting
 
-[Demo](https://account-setting.vercel.app)
+[Demo](https://vue-tab-component-tailwind-css.vercel.app)
 ## Project setup
 ```
 npm install
