@@ -43,10 +43,7 @@ export default {
 .tabs {
   @apply flex;
 }
-.tabs .tabs-header {
-  @apply flex-shrink-0;
-}
-.tabs .tab-btn {
+.tab-btn {
   @apply w-56
     border-none
     outline-none
@@ -70,6 +67,27 @@ export default {
     mx-10
     shadow-xl
     rounded-md
-    bg-white
+    bg-white;
 }
+
+@media (max-width: 768px) {
+  .tabs {
+    @apply flex-col
+    items-center;
+  }
+  .tabs-header {
+    @apply w-full
+    flex
+    flex-col
+    items-center
+    mb-10;
+  }
+  .tabs-header > div {
+    @apply w-1/2;
+  }
+  .tab-btn {
+    @apply w-full;
+  }
+}
+
 </style>

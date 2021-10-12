@@ -71,4 +71,5 @@ export default {
   bg-white
   text-black;
 }
+
 </style>

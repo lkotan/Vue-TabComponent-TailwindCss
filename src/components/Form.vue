@@ -82,79 +82,70 @@ export default {
   max-width: 50.01%;
 }
 
-.checkbox-list{
-    @apply
-    m-6
+.checkbox-list {
+  @apply m-6;
 }
 .checkbox-item {
   @apply flex
-    items-center
+    items-center;
 }
 .checkbox-item p {
   @apply mt-4
     ml-2;
 }
 .switch {
-    @apply
-    relative
+  @apply relative
     w-12
-    h-5
+    h-5;
 }
 
 .switch input {
-    @apply
-    opacity-0
+  @apply opacity-0
     w-0
-    h-0
+    h-0;
 }
 
 .slider {
-    @apply
-    absolute
+  @apply absolute
     cursor-pointer
     top-0
     left-0
     right-0
     bottom-0
     bg-gray-400
-    duration-500
+    duration-500;
 }
 
 .slider:before {
   bottom: 2.6px;
   content: "";
-    @apply
-    absolute
+  @apply absolute
     h-4
     w-4
     left-1
     bg-white
-    duration-500
+    duration-500;
 }
 
 input:checked + .slider {
-  @apply
-  bg-blue-600
+  @apply bg-blue-600;
 }
 
 input:focus + .slider {
-  @apply
-  shadow-xl
+  @apply shadow-xl;
 }
 
 input:checked + .slider:before {
-  @apply
-  transform
-  translate-x-6
+  @apply transform
+  translate-x-6;
 }
 
 .slider.round {
-  @apply
-    rounded-3xl
+  @apply rounded-3xl;
 }
 
 .slider.round:before {
-  @apply
-  rounded-full
+  @apply rounded-full;
 }
+
 </style>
